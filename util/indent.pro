@@ -187,10 +187,7 @@
 -T CRYPTO_EX_DATA_FUNCS
 -T CRYPTO_EX_DATA_IMPL
 -T CRYPTO_EX_dup
--T CRYPTO_EX_dup
 -T CRYPTO_EX_free
--T CRYPTO_EX_free
--T CRYPTO_EX_new
 -T CRYPTO_EX_new
 -T CRYPTO_MEM_LEAK_CB
 -T CRYPTO_THREADID
@@ -297,13 +294,6 @@
 -T IPAddressOrRange
 -T IPAddressOrRanges
 -T ISSUING_DIST_POINT
--T JPAKE_CTX
--T JPAKE_STEP1
--T JPAKE_STEP2
--T JPAKE_STEP3A
--T JPAKE_STEP3B
--T JPAKE_STEP_PART
--T JPAKE_ZKP
 -T KEY_TABLE_TYPE
 -T LHASH
 -T LHASH_COMP_FN_TYPE
@@ -581,6 +571,7 @@
 -T asn1_ps_func
 -T bio_dgram_data
 -T bio_info_cb
+-T BIO_callack_fn
 -T char_io
 -T conf_finish_func
 -T conf_init_func
@@ -731,3 +722,8 @@
 -T SH_LIST
 -T PACKET
 -T RECORD_LAYER
+-T ASYNC_FIBRE
+-T ASYNC_CTX
+-T ASYNC_JOB
+-T intmax_t
+-T uintmax_t
